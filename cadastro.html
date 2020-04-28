@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Prova</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=8c542d39de4351919d01be35d0c74e1f">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.min.css?h=11a56e757be3b3fc2cbdf9445cd038bb">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="#">Consultório</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/index.html">Início</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/projects-grid-cards.html">Tópicos</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/acesso.html">Acessar</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/cv.html">Informações</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/hire-me.html">Contato</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/listagem.html">Listagem de Pacientes</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page hire-me-page">
+        <section class="portfolio-block hire-me">
+            <div class="container">
+                <div class="heading">
+                    <h2>cadastro</h2>
+                </div>
+                <form>
+                    <div>
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-1">Paciente</a></li>
+                            <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-3">Anamnesse</a></li>
+                            <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-2">Sessões</a></li>
+                            <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-4">Psicólogo</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" role="tabpanel" id="tab-1">
+                                <p style="margin-top: 10px;">Preencha todas os campos corretamente!</p><input class="form-control" type="text" name="nome_cadastro" placeholder="Nome completo"><input class="form-control" type="text" name="cpf_cadastro" placeholder="CPF" style="margin-top: 9px;">
+                                <input
+                                    class="form-control" type="date" style="margin-top: 9px;">
+                                    <h5 style="margin-top: 12px;">Sexo</h5>
+                                    <div class="form-check" style="margin-top: 9px;"><input class="form-check-input" type="radio" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Masculino</label></div>
+                                    <div class="form-check" style="margin-top: 3px;"><input class="form-check-input" type="radio" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Feminino</label></div><input class="form-control" type="text" name="endereço_cadastro" placeholder="Endereço"
+                                        style="margin-top: 9px;"><input class="form-control" type="text" name="telefone_cadastro" placeholder="Telefone" style="margin-top: 9px;"><img style="margin-top: 25px;" src="/assets/img/paciente%20(1).png?h=19b0478e033e36b431a4a15984a28b67"><button class="btn btn-success border rounded"
+                                        type="button" style="margin-left: 9px;">Carregar imagem</button><small class="form-text text-muted">Arquivo: avatar.png</small><select class="form-control" style="margin-top: 9px;"><option value="undefined">Amil</option><option value="12">Golden Cross</option><option value="13" selected="">Assim</option></select>
+                                    <div
+                                        class="text-center" style="margin-top: 9px;"><button class="btn btn-primary" type="button">Cadastrar-se</button></div>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="tab-2">
+                            <div class="form-group"><label for="subject" style="margin-top: 9px;">ID Anamnese</label><input class="form-control" type="email" id="email"></div>
+                            <div class="form-group"><label for="email">Data</label><input class="form-control" type="date"></div>
+                            <div class="form-group"><label for="message">Queixas do Paciente</label><textarea class="form-control" id="message"></textarea></div>
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col-md-6"><label for="hire-date">Plano de Tratamento</label><textarea class="form-control" id="message-2"></textarea></div>
+                                    <div class="col-md-6 text-center button">
+                                        <div class="text-center"><button class="btn btn-danger btn-block border rounded-0" type="submit" style="width: 98px;">Verificar</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Diagnostico Final<textarea class="form-control" id="message-1"></textarea></p>
+                            <p>Resumo da Sessão<textarea class="form-control" id="message-1"></textarea></p>
+                            <p>Evolução<textarea class="form-control" id="message-1"></textarea></p>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">0%</div>
+                            </div>
+                            <p class="text-center" style="margin-top: 14px;">Status:</p>
+                            <p class="text-center" style="margin-top: -19px;color: rgb(109,109,109);">Sem informação</p>
+                            <div class="text-center" style="margin-top: 9px;"><button class="btn btn-primary" type="button">Modificar</button></div>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="tab-3">
+                            <p style="margin-top: 9px;">ID do Psicólogo(Número incorreto pode causar bloqueio)</p><input class="form-control" type="text" style="width: 229px;">
+                            <p style="margin-top: 9px;">Queixas</p><textarea class="form-control" style="margin-top: 9px;"></textarea>
+                            <p style="margin-top: 9px;">Sintomas</p><textarea class="form-control" style="margin-top: 9px;"></textarea>
+                            <p style="margin-top: 9px;">Tratamentos Anteriores</p><textarea class="form-control" style="margin-top: 9px;"></textarea>
+                            <p style="margin-top: 9px;">Medicamentos</p><textarea class="form-control" style="margin-top: 9px;"></textarea>
+                            <p style="margin-top: 9px;">Infancia</p><textarea class="form-control" style="margin-top: 9px;"></textarea>
+                            <p style="margin-top: 9px;">Rotina</p><textarea class="form-control" style="margin-top: 9px;"></textarea>
+                            <p style="margin-top: 9px;">Vicios</p><textarea class="form-control" style="margin-top: 9px;"></textarea>
+                            <p style="margin-top: 9px;">Hobbies</p><textarea class="form-control" style="margin-top: 9px;"></textarea>
+                            <p style="margin-top: 9px;">Trabalho&nbsp;</p><textarea class="form-control" style="margin-top: 9px;"></textarea>
+                            <p style="margin-top: 9px;">Histórico Familiar</p><textarea class="form-control" style="margin-top: 9px;"></textarea>
+                            <p style="margin-top: 9px;">Comportamento e linguagem</p><textarea class="form-control" style="margin-top: 9px;"></textarea>
+                            <p style="margin-top: 9px;">Humor</p><textarea class="form-control" style="margin-top: 9px;"></textarea>
+                            <p style="margin-top: 9px;">Hipotese Diagnosticada</p><textarea class="form-control" style="margin-top: 9px;"></textarea>
+                            <p style="margin-top: 9px;">Observações</p><textarea class="form-control" style="margin-top: 9px;"></textarea>
+                            <p style="margin-top: 9px;">Número de Sessões</p><input class="form-control" type="text" style="width: 91px;margin-top: 9px;">
+                            <p style="margin-top: 9px;">Valor da Sessões</p><input class="form-control" type="text" style="width: 91px;margin-top: 9px;">
+                            <p style="margin-top: 9px;">Periodicidade</p><input class="form-control" type="text" style="width: 91px;margin-top: 9px;">
+                            <div class="text-center" style="margin-top: 9px;"><button class="btn btn-primary" type="button">Modificar</button></div>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="tab-4">
+                            <p>Cadastro demora <strong>2 dias</strong> para ser verificado!</p><input class="form-control" type="text" name="nome_psi" placeholder="Nome completo"><input class="form-control" type="text" name="cpf_psi" placeholder="CPF" style="margin-top: 9px;">
+                            <p
+                                style="margin-top: 9px;">CRP</p><textarea class="form-control" style="margin-top: -12px;"></textarea><input class="form-control" type="text" name="telefone_psi" placeholder="Telefone" style="margin-top: 9px;width: 199px;">
+                                <p style="margin-top: 9px;">Acesso<input class="form-control" type="text" name="login_psi" placeholder="Login" style="margin-top: 9px;width: 199px;"><input class="form-control" type="text" name="senha_psi" placeholder="Senha" style="margin-top: 9px;width: 199px;">
+                                    <input
+                                        class="form-control" type="text" name="csenha_psi" placeholder="Confirmação de senha" style="margin-top: 9px;width: 199px;"></p>
+                                <div class="text-center" style="margin-top: 9px;"><button class="btn btn-primary" type="button">Cadastrar-se</button></div>
+                        </div>
+                    </div>
+            </div><input class="form-control" type="hidden"><input class="form-control" type="hidden"></form>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="links"><a href="#">Sobre nós</a><a href="#">Contato</a><a href="#">Especialistas</a></div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="/assets/js/script.min.js?h=ef2fb059e74ca783e17cf6c427acd672"></script>
+</body>
+
+</html>
